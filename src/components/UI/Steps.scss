@@ -1,0 +1,13 @@
+.steps {
+	position: relative;
+	background: blueviolet;
+	width: 100%;
+	overflow: hidden;
+
+	.step {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		transition: all 0.3s;
+	}
+}
