@@ -6,6 +6,8 @@ const withSass = require('@zeit/next-sass');
 const withCss = require('@zeit/next-css');
 const withImages = require('next-images');
 
+console.log('fdsfdsqfdiaaaaa');
+
 // .env config
 require('dotenv').config({
 	path: path.resolve(__dirname, '.env'),
@@ -13,6 +15,11 @@ require('dotenv').config({
 
 const env = Object.assign({}, process.env);
 delete env.NODE_ENV;
+delete env.NODE_VERSION;
+
+console.log('fdsfdqsf');
+console.log(env);
+
 
 // Next config
 const nextJSConfig = {
